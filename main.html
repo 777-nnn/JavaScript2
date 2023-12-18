@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+       <!--jQuery UIを使用しています(CDN)-->
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        
+        <link rel="stylesheet" href="main.css">
+        <title>電卓</title>
+    </head>
+
+    <body>
+
+        <!-- ここに記述していきましょう！ -->
+
+        <div class="calculator">
+            <div class="display">
+                <p class="display-calc">
+                    <span id="display-plus">&plus;</span>
+                    <span id="display-minus">&minus;</span>
+                    <span id="display-times">&times;</span>
+                    <span id="display-divide">&divide;</span>
+                </p>
+                <p class="display-num">0</p>
+            </div>
+
+            <div class="buttons">
+                <div class="buttons-row-1">
+                    <button class="handling-buttons" id="clear-button">AC</button>
+                    <button class="handling-buttons" id="sum/diff-button">+/-</button>
+                    <button class="handling-buttons" id="percent-button">%</button>
+                    <button class="calc-buttons" id="divide-button">&divide;</button>
+                </div>
+                <div class="buttons-row-2">
+                    <button class="number-buttons" id="seven">7</button>
+                    <button class="number-buttons" id="eight">8</button>
+                    <button class="number-buttons" id="nine">9</button>
+                    <button class="calc-buttons" id="times-button">&times;</button>
+                </div>
+                <div class="buttons-row-3">
+                    <button class="number-buttons" id="four">4</button>
+                    <button class="number-buttons" id="five">5</button>
+                    <button class="number-buttons" id="six">6</button>
+                    <button class="calc-buttons" id="minus-button">&minus;</button>
+                </div>
+                <div class="buttons-row-4">
+                    <button class="number-buttons" id="one">1</button>
+                    <button class="number-buttons" id="two">2</button>
+                    <button class="number-buttons" id="three">3</button>
+                    <button class="calc-buttons" id="plus-button">&plus;</button>
+                </div>
+                <div class="buttons-row-5">
+                    <button class="number-buttons" id="zero">0</button>
+                    <button class="number-buttons" id="point">.</button>
+                    <button id="equals-button">&equals;</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/decimal.js/9.0.0/decimal.min.js"></script>
+    </body>
+</html>
