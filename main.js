@@ -48,11 +48,11 @@ class Calculator{
 
         if(this.calcMode == "+"){
             this.calcValue[0] = temp0.add(temp1).toNumber();
-        }else if(this.calcMode =="-"){
+        }else if(this.calcMode == "−"){
             this.calcValue[0] = temp0.sub(temp1).toNumber();
-        }else if(this.calcMode =="×"){
+        }else if(this.calcMode == "×"){
             this.calcValue[0] = temp0.mul(temp1).toNumber();
-        }else if(this.calcMode =="÷"){
+        }else if(this.calcMode == "÷"){
             this.calcValue[0] = temp0.div(temp1).toNumber();
         }
 
